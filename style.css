@@ -563,7 +563,7 @@
   padding: 15px 15px 0;
   text-align: center;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 28px;
 }
 #es-sodastream.es-sodastream .es-bez__wrapper-desktop {
   display: none;
@@ -630,7 +630,7 @@
 }
 #es-sodastream.es-sodastream .es-bez__text {
   text-align: center;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "HurmeGeometricSans3-Light", sans-serif;
   font-size: 20px;
 }
 @media screen and (min-width: 350px) {
@@ -700,6 +700,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  #es-sodastream.es-sodastream .es-bez__title {
+    font-size: 50px;
+  }
   #es-sodastream.es-sodastream .es-bez__wrapper-mobile-sodastream-container-text-wrapper {
     padding-left: 5%;
   }
